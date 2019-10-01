@@ -1,0 +1,51 @@
+{
+    "name": "edgrosvenor/shareable-livewire",
+    "description": "Just a demo package showing how to share Livewire components between sites",
+    "keywords": [
+        "livewire",
+        "laravel"
+    ],
+    "homepage": "https://github.com/edgrosvenor/shareable-livewire",
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Ed Grosvenor",
+            "email": "ed.grosvenor@wickedviral.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.1",
+        "illuminate/support": "^6.0",
+        "livewire/livewire": "^0.3"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^4.0",
+        "phpunit/phpunit": "^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "ShareableLivewire\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "ShareableLivewire\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit"
+
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "ShareableLivewire\\ShareableLivewireServiceProvider"
+            ]
+        }
+    }
+}

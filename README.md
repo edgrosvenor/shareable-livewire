@@ -16,3 +16,5 @@ But I'm not putting this in Packagist, so either use GitHub as a repository or c
 
 The magic all happens in the [service provider](https://github.com/edgrosvenor/shareable-livewire/blob/master/src/ShareableLivewireServiceProvider.php). Basically you just create the aliases for your components in the boot
 () method. 
+
+After pulling this package into a Laravel site, I can use my component like so: `@livewire('sl::numberer')`

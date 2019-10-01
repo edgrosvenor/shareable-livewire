@@ -14,6 +14,5 @@ composer require edgrosvenor/shareable-livewire
 But I'm not putting this in Packagist, so either use GitHub as a repository or clone / download the package and use a
  path repsotory.
 
-The magic all happens in the [service provider](https://github.com/edgrosvenor/shareable-livewire/blob/master/src
-/ShareableLivewireServiceProvider.php). Basically you just create the aliases for your components in the boot
+The magic all happens in the [service provider](https://github.com/edgrosvenor/shareable-livewire/blob/master/src/ShareableLivewireServiceProvider.php). Basically you just create the aliases for your components in the boot
 () method. 

@@ -18,12 +18,5 @@
             <directory suffix=".php">./src</directory>
         </whitelist>
     </filter>
-<<<<<<< HEAD:phpunit.xml.dist
-    <logging>
-        <log type="coverage-text" target="build/coverage.txt"/>
-        <log type="coverage-clover" target="build/logs/clover.xml"/>
-    </logging>
 </phpunit>
-=======
-</phpunit>
->>>>>>> Doesn't get much quicker or dirtier:shareable-livewire/phpunit.xml.dist
+
